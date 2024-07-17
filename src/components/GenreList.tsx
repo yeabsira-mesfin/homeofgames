@@ -23,12 +23,14 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
               boxSize="32px"
               borderRadius={8}
               src={genre.image_background}
+              
             ></Image>
             <Button
               fontWeight={genre.id === selectedGenre?.id ? "bold" : "normal"}
               onClick={() => onSelectGenre(genre)}
               variant="link"
               fontSize="lg"
+             
             >
               {genre.name}
             </Button>

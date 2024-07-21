@@ -33,7 +33,7 @@ const useData = <T>(
           setLoading(false);
         });
 
-      return () => controller.abort;
+      return () => controller.abort();
     },
     deps ? [...deps] : []
   );

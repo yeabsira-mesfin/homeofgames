@@ -11,10 +11,13 @@ Search Functionality: Quickly find specific games using the search bar.
 Filtering Options: Narrow down game selections by genre, platform, and ratings for a personalized experience.
 User-Friendly Interface: Navigate the site effortlessly with an intuitive design.
 Technologies Used
+
+
 Frontend: HTML, CSS, JavaScript, React
 Backend: Node.js (or any backend technology you used)
 
 Getting Started
+
 Clone the repository:
 
 bash
